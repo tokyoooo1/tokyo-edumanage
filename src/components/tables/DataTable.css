@@ -1,0 +1,37 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.admin-table thead {
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+.admin-table tr.selected {
+  background: #f0f7ff;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.table-loading {
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+export const mockStudents = [
+  {
+    id: 'ADM-2026-001',
+    name: 'Chinedu Okafor',
+    dob: '2012-04-18',
+    gender: 'Male',
+    address: '12 Marina Road, Lagos',
+    className: 'Grade 8',
+    section: 'Blue',
+    guardian: 'Ada Okafor',
+    guardianPhone: '+234 801 555 0111',
+    attendance: 96,
+    status: 'Active',
+    photoUrl: '',
+    documents: ['Birth certificate.pdf'],
+  },
+  {
+    id: 'ADM-2026-002',
+    name: 'Maya Johnson',
+    dob: '2013-09-02',
+    gender: 'Female',
+    address: '44 Allen Avenue, Ikeja',
+    className: 'Grade 7',
+    section: 'Gold',
+    guardian: 'Ruth Johnson',
+    guardianPhone: '+234 802 555 0198',
+    attendance: 91,
+    status: 'Active',
+    photoUrl: '',
+    documents: ['Previous report card.pdf'],
+  },
+  {
+    id: 'ADM-2026-003',
+    name: 'Tariq Bello',
+    dob: '2011-11-26',
+    gender: 'Male',
+    address: '8 Garki Close, Abuja',
+    className: 'Grade 9',
+    section: 'Blue',
+    guardian: 'Ibrahim Bello',
+    guardianPhone: '+234 803 555 0145',
+    attendance: 84,
+    status: 'Watchlist',
+    photoUrl: '',
+    documents: [],
+  },
+]
+
+export async function fetchStudents() {
+  return mockStudents
+}
